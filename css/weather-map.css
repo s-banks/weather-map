@@ -1,0 +1,95 @@
+.nav-pills .nav-link.active {
+    /*background-color: #fe6700;*/
+    background-color: #994C00;
+}
+
+.nav-link:hover {
+    color: #66FF66;
+}
+
+body {
+    background-image: url("../img/map-background.jpg");
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,.6);
+    background-size: cover;
+    color: #FFF;
+}
+
+p.about {
+    /*background-color: rgba(43, 45, 47, 0.7);*/
+    /*display: inline-block;*/
+}
+
+p > a:link {
+    color: #00C000;
+}
+p > a:visited {
+    color: mediumvioletred;
+}
+p > a:hover {
+    color: whitesmoke;
+}
+p > a:active {
+    color: blue;
+}
+
+/*.btn-outline-success {*/
+/*    border-color: #994C00;*/
+/*    color: #994C00;*/
+/*    --bs-btn-hover-bg: #994C00;*/
+/*    --bs-btn-hover-border-color: #000;*/
+/*    --bs-btn-active-border-color: #000;*/
+/*}*/
+
+.btn-outline-success {
+    --bs-btn-color: #994C00;;
+    --bs-btn-border-color: #994C00;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #994C00;
+    --bs-btn-hover-border-color: #994C00;
+    /*--bs-btn-focus-shadow-rgb: 25,135,84;*/
+    --bs-btn-focus-shadow-rgb: 153,76,0;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #994C00;
+    --bs-btn-active-border-color: #994C00;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #994C00;
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+}
+
+.card {
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+
+.card-img-top {
+    width: 75%;
+    height: auto;
+}
+
+span {
+   color: #994C00;
+}
+
+span.title {
+    color: #FFF;
+}
+
+.five-day-icon>img {
+    width: 75%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
